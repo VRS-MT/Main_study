@@ -27,7 +27,7 @@ function SubForm (){
 <body>
 <div class="wrap">
   <h1 class="likert-header">This is a Likert Scale survey</h1>
-  <form action="">
+  <form id="myForm">
     <label class="statement">This HTML Likert scale is easy to use.</label>
     <ul class='likert'>
       <li>
@@ -120,11 +120,8 @@ function SubForm (){
         <label>Strongly disagree</label>
       </li>
     </ul>
-    <div class="buttons">
-      <button class="clear">Clear</button>
-      <button class="submit">Submit</button>
-    </div>
   </form>
+  <button onclick="SubForm()">Submit</button>
 </body>
 </html>
 
