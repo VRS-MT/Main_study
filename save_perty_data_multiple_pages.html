@@ -32,102 +32,237 @@
     </script>
   </head>
   <body>
+    <div id="myDIV1">
     <div class="wrap">
-    <h1 class="likert-header">Article pair 1</h1>
-    <form id="myForm">
-      <label class="statement">This HTML Likert scale is easy to use.</label>
-      <ul class='likert'>
-        <li>
-          <input type="radio" name="likert" value="1">
-          <label>Strongly disagree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert" value="2">
-          <label>Disagree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert" value="3">
-          <label>Neutral</label>
-        </li>
-        <li>
-          <input type="radio" name="likert" value="4">
-          <label>Agree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert" value="5">
-          <label>Strongly agree</label>
-        </li>
-      </ul>
-      <label class="statement">It's clear that this is a responsive design.</label>
-      <ul class='likert'>
-        <li>
-          <input type="radio" name="likert2" value="1">
-          <label>Strongly disagree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert2" value="2">
-          <label>Disagree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert2" value="3">
-          <label>Neutral</label>
-        </li>
-        <li>
-          <input type="radio" name="likert2" value="4">
-          <label>Agree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert2" value="5">
-          <label>Strongly agree</label>
-        </li>
-      </ul>
-      <label class="statement">Codepen.io is an excellent tool for prototyping.</label>
-      <ul class='likert'>
-        <li>
-          <input type="radio" name="likert3" value="1">
-          <label>Strongly disagree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert3" value="2">
-          <label>Disagree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert3" value="3">
-          <label>Neutral</label>
-        </li>
-        <li>
-          <input type="radio" name="likert3" value="4">
-          <label>Agree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert3" value="5">
-          <label>Strongly agree</label>
-        </li>
-      </ul>
-      <label class="statement">Pete Fecteau is incredibly smart and handsome.</label>
-      <ul class='likert'>
-        <li>
-          <input type="radio" name="likert4" value="1">
-          <label>Strongly disagree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert4" value="2">
-          <label>Disagree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert4" value="3">
-          <label>Neutral</label>
-        </li>
-        <li>
-          <input type="radio" name="likert4" value="4">
-          <label>Agree</label>
-        </li>
-        <li>
-          <input type="radio" name="likert4" value="5">
-          <label>Strongly agree</label>
-        </li>
-      </ul>
-    </form>
-    <button onclick="SubForm()">Submit</button>
+      <h1 class="likert-header">Article pair 1</h1>
+      <form id="myForm">
+        <label class="statement">This HTML Likert scale is easy to use.</label>
+        <ul class='likert'>
+          <li>
+            <input type="radio" name="likert" value="1">
+            <label>Strongly disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert" value="2">
+            <label>Disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert" value="3">
+            <label>Neutral</label>
+          </li>
+          <li>
+            <input type="radio" name="likert" value="4">
+            <label>Agree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert" value="5">
+            <label>Strongly agree</label>
+          </li>
+        </ul>
+        <label class="statement">It's clear that this is a responsive design.</label>
+        <ul class='likert'>
+          <li>
+            <input type="radio" name="likert2" value="1">
+            <label>Strongly disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert2" value="2">
+            <label>Disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert2" value="3">
+            <label>Neutral</label>
+          </li>
+          <li>
+            <input type="radio" name="likert2" value="4">
+            <label>Agree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert2" value="5">
+            <label>Strongly agree</label>
+          </li>
+        </ul>
+        <label class="statement">Codepen.io is an excellent tool for prototyping.</label>
+        <ul class='likert'>
+          <li>
+            <input type="radio" name="likert3" value="1">
+            <label>Strongly disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert3" value="2">
+            <label>Disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert3" value="3">
+            <label>Neutral</label>
+          </li>
+          <li>
+            <input type="radio" name="likert3" value="4">
+            <label>Agree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert3" value="5">
+            <label>Strongly agree</label>
+          </li>
+        </ul>
+        <label class="statement">Pete Fecteau is incredibly smart and handsome.</label>
+        <ul class='likert'>
+          <li>
+            <input type="radio" name="likert4" value="1">
+            <label>Strongly disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert4" value="2">
+            <label>Disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert4" value="3">
+            <label>Neutral</label>
+          </li>
+          <li>
+            <input type="radio" name="likert4" value="4">
+            <label>Agree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert4" value="5">
+            <label>Strongly agree</label>
+          </li>
+        </ul>
+      </form>
+      <button onclick="SubForm()">Submit</button>
+      <button onclick="div1_next()">Neste</button>
+    </div>
+    <div id="myDIV2">
+    <div class="wrap">
+      <h1 class="likert-header">Article pair 2</h1>
+      <form id="myForm">
+        <label class="statement">This HTML Likert scale is easy to use.</label>
+        <ul class='likert'>
+          <li>
+            <input type="radio" name="likert" value="1">
+            <label>Strongly disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert" value="2">
+            <label>Disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert" value="3">
+            <label>Neutral</label>
+          </li>
+          <li>
+            <input type="radio" name="likert" value="4">
+            <label>Agree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert" value="5">
+            <label>Strongly agree</label>
+          </li>
+        </ul>
+        <label class="statement">It's clear that this is a responsive design.</label>
+        <ul class='likert'>
+          <li>
+            <input type="radio" name="likert2" value="1">
+            <label>Strongly disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert2" value="2">
+            <label>Disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert2" value="3">
+            <label>Neutral</label>
+          </li>
+          <li>
+            <input type="radio" name="likert2" value="4">
+            <label>Agree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert2" value="5">
+            <label>Strongly agree</label>
+          </li>
+        </ul>
+        <label class="statement">Codepen.io is an excellent tool for prototyping.</label>
+        <ul class='likert'>
+          <li>
+            <input type="radio" name="likert3" value="1">
+            <label>Strongly disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert3" value="2">
+            <label>Disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert3" value="3">
+            <label>Neutral</label>
+          </li>
+          <li>
+            <input type="radio" name="likert3" value="4">
+            <label>Agree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert3" value="5">
+            <label>Strongly agree</label>
+          </li>
+        </ul>
+        <label class="statement">Pete Fecteau is incredibly smart and handsome.</label>
+        <ul class='likert'>
+          <li>
+            <input type="radio" name="likert4" value="1">
+            <label>Strongly disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert4" value="2">
+            <label>Disagree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert4" value="3">
+            <label>Neutral</label>
+          </li>
+          <li>
+            <input type="radio" name="likert4" value="4">
+            <label>Agree</label>
+          </li>
+          <li>
+            <input type="radio" name="likert4" value="5">
+            <label>Strongly agree</label>
+          </li>
+        </ul>
+      </form>
+      <button onclick="SubForm()">Submit</button>
+      <button onclick="div2_previous()">Forrige</button>
+      <button onclick="div2_next()">Neste</button>
+    </div>
+    
+    <script>
+      function div1_next() {
+        var x = document.getElementById("myDIV1");
+        var y = document.getElementById("myDIV2");
+        x.style.display = "none";
+        y.style.display = "block";
+      }
+      
+      function div2_previous() {
+        var x = document.getElementById("myDIV2");
+        var y = document.getElementById("myDIV1");  
+        x.style.display = "none";
+        y.style.display = "block";
+      }
+      
+      function div2_next() {
+        var x = document.getElementById("myDIV2");
+        var y = document.getElementById("myDIV3");  
+        x.style.display = "none";
+        y.style.display = "block";
+      }
+      
+      function div3_previous() {
+        var x = document.getElementById("myDIV3");
+        var y = document.getElementById("myDIV2");  
+        x.style.display = "none";
+        y.style.display = "block";
+      }
+    </script>
+
   </body>
 </html>
