@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#myDIV2 {
+  display: none
+}
+
+#myDIV3 {
+  display: none
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div id="myDIV1">
+<p>Dette er tekst 1</p>
+<button onclick="div1_next()">Neste</button>
+</div>
+
+<div id="myDIV2">
+<p>Mens dette er tekst 2</p>
+<button onclick="div2_previous()">Forrige</button>
+<button onclick="div2_next()">Neste</button>
+</div>
+
+<div id="myDIV3">
+<p>Til slutt har vi tekst 3</p>
+<button onclick="div3_previous()">Forrige</button>
+</div>
+
+
+
+<script>
+function div1_next() {
+  var x = document.getElementById("myDIV1");
+  var y = document.getElementById("myDIV2");
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function div2_previous() {
+  var x = document.getElementById("myDIV2");
+  var y = document.getElementById("myDIV1");  
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function div2_next() {
+  var x = document.getElementById("myDIV2");
+  var y = document.getElementById("myDIV3");  
+  x.style.display = "none";
+  y.style.display = "block";
+}
+
+function div3_previous() {
+  var x = document.getElementById("myDIV3");
+  var y = document.getElementById("myDIV2");  
+  x.style.display = "none";
+  y.style.display = "block";
+}
+</script>
+
+</body>
+</html>
+
