@@ -21,6 +21,7 @@
               url:'https://api.apispreadsheets.com/data/Sm7JPYp7jaZctzWB/',
               type:'post',
               data:$("#myForm").serializeArray(),
+              data:$("#myForm2").serializeArray(),
               success: function(){
                 alert("Form Data Submitted :)")
               },
@@ -136,7 +137,7 @@
     <div id="myDIV2">
     <div class="wrap">
       <h1 class="likert-header">Article pair 2</h1>
-      <form id="myForm">
+      <form id="myForm2">
         <label class="statement">This HTML Likert scale is easy to use.</label>
         <ul class='likert'>
           <li>
