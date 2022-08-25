@@ -15,7 +15,7 @@ form .statement {
 }
 form .likert {
   list-style:none;
-  width:100%;
+  width:90%;
   margin:0;
   padding:0 0 35px;
   display:block;
@@ -81,10 +81,12 @@ form .buttons .submit:hover {background-color: #14892c;}
   margin: 1rem;
   padding: 1rem 1rem;
   text-align: center;
-  min-width: 900px;
-  max-width: 900px;
+
+  width: 70%;
+
+
   margin: auto;
-  background-color: #f0ead6;
+  background-color: blue;
 }
 
 #child1 {
@@ -92,7 +94,8 @@ form .buttons .submit:hover {background-color: #14892c;}
   padding: 0rem 1rem;
   vertical-align: top;
   margin: auto;
-  max-width: 400px;
+  width: 39%;
+
   background-color: #87CEFA;
 }
 
@@ -101,7 +104,8 @@ form .buttons .submit:hover {background-color: #14892c;}
   padding: 0rem 1rem;
   vertical-align: top;
   margin: auto;
-  max-width: 400px;
+  width: 39%;
+
   background-color: purple;
 }
 
@@ -109,5 +113,14 @@ form .buttons .submit:hover {background-color: #14892c;}
   text-align: left;
   text-align: top;
   text-decoration: underline;
+  font-weight: bold;
+  padding-left: 0px;
+}
+
+#article2 {
+  text-align: left;
+  text-align: top;
+  text-decoration: underline;
+  font-weight: bold;
   padding-left: 0px;
 }
